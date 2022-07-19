@@ -89,7 +89,7 @@
                     {
                         "movement": "Close LP",
                         "command": "LP",
-                        "rangeCommand": "close",
+                        "commandCondition": "close",
                         "startup": 3,
                         "active": 3,
                         "recovery": 5,
@@ -108,7 +108,7 @@
                     {
                         "movement": "Far LP",
                         "command": "LP",
-                        "rangeCommand": "far",
+                        "commandCondition": "far",
                         "startup": 4,
                         "active": 3,
                         "recovery": 4,
@@ -126,7 +126,7 @@
                     {
                         "movement": "Close MP",
                         "command": "MP",
-                        "rangeCommand":"close",
+                        "commandCondition":"close",
                         "startup": 5,
                         "active": 4,
                         "recovery": 10,
@@ -147,7 +147,7 @@
                     {
                         "movement": "Far MP",
                         "command": "MP",
-                        "rangeCommand": "far",
+                        "commandCondition": "far",
                         "startup": 5,
                         "active": 4,
                         "recovery": 9,
@@ -168,7 +168,7 @@
                     {
                         "movement": "Close HP",
                         "command": "HP",
-                        "rangeCommand": "close",
+                        "commandCondition": "close",
                         "startup": 4,
                         "active": 4,
                         "recovery": 17,
@@ -189,7 +189,7 @@
                     {
                         "movement": "Far HP",
                         "command": "HP",
-                        "rangeCommand": "far",
+                        "commandCondition": "far",
                         "startup": 8,
                         "active": 5,
                         "recovery": 22,
@@ -208,7 +208,7 @@
                     {
                         "movement": "Stand LK",
                         "command": "LK",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 4,
                         "active": 4,
                         "recovery": 7,
@@ -224,7 +224,7 @@
                     {
                         "movement": "Close MK",
                         "command": "MK",
-                        "rangeCommand": "close",
+                        "commandCondition": "close",
                         "startup": 4,
                         "active": 5,
                         "recovery": 11,
@@ -245,7 +245,7 @@
                     {
                         "movement": "Far MK",
                         "command": "MK",
-                        "rangeCommand": "far",
+                        "commandCondition": "far",
                         "startup": 5,
                         "active": 5,
                         "recovery": 17,
@@ -264,7 +264,7 @@
                     {
                         "movement": "Close HK",
                         "command": "HK",
-                        "rangeCommand": "close",
+                        "commandCondition": "close",
                         "startup": 5,
                         "active": 8,
                         "recovery": 25,
@@ -288,7 +288,7 @@
                     {
                         "movement": "Far HK",
                         "command": "HK",
-                        "rangeCommand": "far",
+                        "commandCondition": "far",
                         "startup": 9,
                         "active": 5,
                         "recovery": 20,
@@ -310,7 +310,7 @@
                     {
                         "movement": "Zugai Hasatsu",
                         "command": "F+MP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 14,
                         "active": 2,
                         "recovery": 22,
@@ -334,7 +334,7 @@
                     {
                         "movement": "Crouch LP",
                         "command": "D+LP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 4,
                         "active": 3,
                         "recovery": 5,
@@ -352,7 +352,7 @@
                     {
                         "movement": "Crouch MP",
                         "command": "D+MP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 5,
                         "active": 4,
                         "recovery": 7,
@@ -372,7 +372,7 @@
                     {
                         "movement": "Crouch HP",
                         "command": "D+HP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 5,
                         "active": 5,
                         "recovery": 19,
@@ -392,7 +392,7 @@
                     {
                         "movement": "Crouch LK",
                         "command": "D+LK",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 5,
                         "active": 3,
                         "recovery": 7,
@@ -410,7 +410,7 @@
                     {
                         "movement": "Crouch MK",
                         "command": "D+MK",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 6,
                         "active": 5,
                         "recovery": 16,
@@ -431,7 +431,7 @@
                     {
                         "movement": "Crouch HK",
                         "command": "D+HK",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 7,
                         "active": 5,
                         "recovery": 25,
@@ -453,7 +453,7 @@
                     {
                         "movement": "Jump LP",
                         "command": "U/UF+LP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 4,
                         "active": null,
                         "recovery": null,
@@ -469,7 +469,7 @@
                     {
                         "movement": "Jump MP",
                         "command": "U/UF+MP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 5,
                         "active": 5,
                         "recovery": null,
@@ -488,7 +488,7 @@
                     {
                         "movement": "Jump HP (Neutral)",
                         "command": "U+HP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 6,
                         "active": 3,
                         "recovery": null,
@@ -507,7 +507,7 @@
                     {
                         "movement": "Jump HP",
                         "command": "UF+HP",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 6,
                         "active": 4,
                         "recovery": null,
@@ -526,7 +526,7 @@
                     {
                         "movement": "Jump LK",
                         "command": "U/UF+LK",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 4,
                         "active": 10,
                         "recovery": null,
@@ -542,7 +542,7 @@
                     {
                         "movement": "Jump MK (Neutral)",
                         "command": "U+MK",
-                        "rangeCommand": null,
+                        "commandCondition": null,
                         "startup": 5,
                         "active": 6,
                         "recovery": null,
@@ -559,163 +559,558 @@
                         ]
                     },
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
-                        "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "movement": "Jump MK",
+                        "command": "UF+MK",
+                        "commandCondition": null,
+                        "startup": 5,
+                        "active": 6,
+                        "recovery": null,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 14,
+                        "stun": 7,
+                        "attack": "M",
+                        "parry": "H",
+                        "block": null,
                         "comments": [
-                            ""
+                            "Self meter gain: Whiff: 2, Hit: 11, Block: 6.",
+                            "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
                         ]
                     },
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
+                        "movement": "Jump HK (Neutral)",
+                        "command": "U+HK",
+                        "commandCondition": null,
+                        "startup": 6,
                         "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
-                        "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "recovery": null,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 21,
+                        "stun": 11,
+                        "attack": "M",
+                        "parry": "H",
+                        "block": null,
                         "comments": [
-                            ""
+                            "Self meter gain: Whiff: 3, Hit: 19, Block: 10.",
+                            "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
                         ]
                     },
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
-                        "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "movement": "Jump HK",
+                        "command": "UF+HK",
+                        "commandCondition": null,
+                        "startup": 6,
+                        "active": 4,
+                        "recovery": null,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 21,
+                        "stun": 11,
+                        "attack": "M",
+                        "parry": "H",
+                        "block": null,
                         "comments": [
-                            ""
+                            "Self meter gain: Whiff: 3, Hit: 19, Block: 10.",
+                            "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
                         ]
                     },
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
-                        "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "movement": "Tenma Kujin Kyaku",
+                        "command": "D+MK",
+                        "commandCondition": "air",
+                        "startup": 8,
+                        "active": 10,
+                        "recovery": 7,
+                        "hit": -1,
+                        "crHit": 4,
+                        "damage": 16,
+                        "stun": 11,
+                        "attack": "M",
+                        "parry": "H",
+                        "block": -1,
                         "comments": [
-                            ""
+                            "Self meter gain: Whiff: 2, Hit: 11, Block: 6.",
+                            "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
                         ]
                     }
                 ],
                 "targetCombos": [
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
+                        "movement": "Close Standing MP-HP (TC)",
+                        "command": "MP>HP",
+                        "commandCondition": null,
+                        "startup": 8,
+                        "active": 2,
+                        "recovery": 28,
+                        "hit": -10,
+                        "crHit": -8,
+                        "damage": 11,
                         "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "attack": "H*H",
+                        "parry": "G",
+                        "block": -12,
                         "comments": [
-                            ""
+                            "Creates distance but is extremely unsafe on hit."
                         ]
                     }
                 ],
                 "throws": [
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
-                        "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "movement": "Seoi Nage",
+                        "command": "LP+LK",
+                        "commandCondition": null,
+                        "startup": 2,
+                        "active": 1,
+                        "recovery": 21,
+                        "hit": 45,
+                        "crHit": 0,
+                        "damage": 19,
+                        "stun": 8,
+                        "attack": "T",
+                        "parry": "N",
+                        "block": 0,
                         "comments": [
-                            ""
+                            "24 throw range."
+                        ]
+                    },
+                    {
+                        "movement": "Tomoe Nage",
+                        "command": "B+LP+LK",
+                        "commandCondition": null,
+                        "startup": 2,
+                        "active": 1,
+                        "recovery": 21,
+                        "hit": 70,
+                        "crHit": 0,
+                        "damage": 19,
+                        "stun": 14,
+                        "attack": "T",
+                        "parry": "N",
+                        "block": 0,
+                        "comments": [
+                            "24 throw range."
                         ]
                     }
                 ],
                 "universalOverheads": [
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
+                        "movement": "Straight Hit",
+                        "command": "MP+MK",
+                        "commandCondition": null,
+                        "startup": 15,
+                        "active": 8,
+                        "recovery": 7,
+                        "hit": 0,
+                        "crHit": 0,
+                        "damage": 7,
                         "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
-                        "comments": [
-                            ""
-                        ]
+                        "attack": "M",
+                        "parry": "H",
+                        "block": -5,
+                        "comments": []
                     }
                 ],
                 "taunt": [
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
-                        "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "movement": "Kiai",
+                        "command": "HP+HP",
+                        "commandCondition": null,
+                        "startup": 66,
+                        "active": null,
+                        "recovery": null,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": null,
+                        "stun": null,
+                        "attack": null,
+                        "parry": null,
+                        "block": null,
                         "comments": [
-                            ""
+                            "Increases damage for the next hit/combo by 43.8%.",
+                            "Increases stun damage for the next hit/combo by 28.1%.",
+                            "One taunt is the maximum.",
+                            "Bonus is lost if Akuma is successfully hit (chip damage does not count), after he lands a successful hit/combo, or if he throws the opponent."
                         ]
                     }
                 ],
                 "specialMoves": [
                     {
+                        "movement": "Gou Hadouken",
+                        "command": "QCF+P",
+                        "commandCondition": null,
+                        "startup": 8,
+                        "active": null,
+                        "recovery": 38,
+                        "hit": -10,
+                        "crHit": -10,
+                        "damage": 17,
+                        "stun": 3,
+                        "attack": "H",
+                        "parry": "H",
+                        "block": -11,
+                        "comments": [
+                            "Cancel options: su.",
+                            "Button strength only affects projectile speed."
+                        ]
+                    },
+                    {
+                        "movement": "Zankuu Hadouken",
+                        "command": "QCF+P",
+                        "commandCondition": "air",
+                        "startup": 11,
+                        "active": 24,
+                        "recovery": 7,
+                        "hit": -17,
+                        "crHit": -16,
+                        "damage": 10,
+                        "stun": 3,
+                        "attack": "H",
+                        "parry": "H",
+                        "block": -18,
+                        "comments": [
+                            "Cancel options: su.",
+                            "Can make Akuma temporarily pause in mid-air, especially before landing.",
+                            "Can be performed from any angled or neutral jump.",
+                            "Fireball speed is determined by button strength; LP = slowest, HP = fastest.",
+                            "Button strength does not affect the fireball angle.",
+                            "Holding down on the frame Akuma lands causes him to crouch during landing recovery."
+                        ]
+                    },
+                    {
+                        "movement": "Shakunetsu Hadouken LP",
+                        "command": "HCB+LP",
+                        "commandCondition": null,
+                        "startup": 14,
+                        "active": 44,
+                        "recovery": 42,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 8,
+                        "stun": 3,
+                        "attack": "H",
+                        "parry": "H",
+                        "block": -23,
+                        "comments": [
+                            "Cancel options: su.",
+                            "Launches opponent on hit."
+                        ]
+                    },
+                    {
+                        "movement": "Shakunetsu Hadouken MP",
+                        "command": "HCB+MP",
+                        "commandCondition": null,
+                        "startup": 18,
+                        "active": 45,
+                        "recovery": 43,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 16,
+                        "stun": 5,
+                        "attack": "H*H",
+                        "parry": "H*H",
+                        "block": -18,
+                        "comments": [
+                            "Cancel options: su.",
+                            "Counts as 2 projectile points.",
+                            "Last hit launches opponent"
+                        ]
+                    },
+                    {
+                        "movement": "Shakunetsu Hadouken HP",
+                        "command": "HCB+HP",
+                        "commandCondition": null,
+                        "startup": 22,
+                        "active": 46,
+                        "recovery": 44,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 24,
+                        "stun": 7,
+                        "attack": "H*H*H",
+                        "parry": "H*H*H",
+                        "block": -15,
+                        "comments": [
+                            "Cancel options: su.",
+                            "Counts as 2 projectile points despite hitting three times.",
+                            "Last hit launches opponent."
+                        ]
+                    },
+                    {
+                        "movement": "Gou Shoryuken LP",
+                        "command": "DP+LP",
+                        "commandCondition": null,
+                        "startup": 3,
+                        "active": 14,
+                        "recovery": 26,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 23,
+                        "stun": 11,
+                        "attack": "H",
+                        "parry": "A",
+                        "block": -24,
+                        "comments": [
+                            "Cancel options: su.",
+                            "1-3f fully invulnerable, 4-5f upper body invulnerable.",
+                            "Can trade with overlapping attacks on its first active frame, depending on priority and hitbox height.",
+                            "1-5f throw invulnerable, 6f airborne.",
+                            "Self meter gain: Whiff: 3, Hit: 21, Block: 15.",
+                            "Opponent meter gain: Whiff: 0, Hit: 6, Block: 0."
+                        ]
+                    },
+                    {
+                        "movement": "Gou Shoryuken MP",
+                        "command": "DP+MP",
+                        "commandCondition": null,
+                        "startup": 2,
+                        "active": 7,
+                        "recovery": 41,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 25,
+                        "stun": 13,
+                        "attack": "H*H",
+                        "parry": "A*A",
+                        "block": -30,
+                        "comments": [
+                            "Cancel options: su (first hit only).",
+                            "1-2f fully invulnerable, 3-4f upper body invulnerable.",
+                            "Can trade with overlapping attacks on its first active frame, depending on priority and hitbox height.",
+                            "1-4f throw invulnerable, 5f airborne.",
+                            "2nd hit knocks down, but misses most crouching characters except at point blank, leaving Akuma vulnerable on recovery.",
+                            "This makes it unreliable as a wakeup reversal, since properly spaced crouching attacks can force the move to whiff.",
+                            "Self meter gain: Whiff: 3, Hit: 22, Block: 16.",
+                            "Opponent meter gain: Whiff: 0, Hit: 6, Block: 0."
+                        ]
+                    },
+                    {
+                        "movement": "Gou Shoryuken HP",
+                        "command": "DP+HP",
+                        "commandCondition": null,
+                        "startup": 1,
+                        "active": 23,
+                        "recovery": 35,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 29,
+                        "stun": 15,
+                        "attack": "H*H*H",
+                        "parry": "A*A*A",
+                        "block": -34,
+                        "comments": [
+                            "Cancel options: su (first 2 hits only).",
+                            "1-3f fully invulnerable, 4-5f upper body invulnerable.",
+                            "1-5f throw invulnerable, 6f airborne.",
+                            "3rd hit knocks down, but misses most crouching characters except at point blank, leaving Akuma vulnerable on recovery.",
+                            "This makes it unreliable as a wake up reversal, since properly spaced crouching attacks can force the move to whiff.",
+                            "Does NOT force standing.",
+                            "Self meter gain: Whiff: 3, Hit: 23, Block: 17.",
+                            "Opponent meter gain: Whiff: 0, Hit: 6, Block: 0."
+                        ]
+                    },
+                    {
                         "movement": "",
                         "command": "",
-                        "rangeCommand": null,
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
+                        "startup": 7,
+                        "active": 5,
+                        "recovery": 25,
+                        "hit": 28,
+                        "crHit": 28,
+                        "damage": 24,
+                        "stun": 3,
+                        "attack": "",
+                        "parry": "",
+                        "block": -15,
+                        "comments": [
+                            ""
+                        ]
+                    },
+                    {
+                        "movement": "",
+                        "command": "",
+                        "commandCondition": null,
                         "startup": 7,
                         "active": 5,
                         "recovery": 25,
@@ -733,21 +1128,152 @@
                 ],
                 "superArts": [
                     {
-                        "movement": "",
-                        "command": "",
-                        "rangeCommand": null,
-                        "startup": 7,
-                        "active": 5,
-                        "recovery": 25,
-                        "hit": 28,
-                        "crHit": 28,
-                        "damage": 24,
-                        "stun": 3,
-                        "attack": "",
-                        "parry": "",
-                        "block": -15,
+                        "movement": "Messatsu Gou Hadou",
+                        "command": "QCF>QCF+P",
+                        "commandCondition": "SA1",
+                        "startup": 2,
+                        "active": 42,
+                        "recovery": null,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 47,
+                        "stun": 0,
+                        "attack": "H*6",
+                        "parry": "H*6",
+                        "block": -13,
                         "comments": [
-                            ""
+                            "Stock: x2."
+                        ]
+                    },
+                    {
+                        "movement": "Tenma Gou Zankuu",
+                        "command": "QCF>QCF+P",
+                        "commandCondition": "air SA1",
+                        "startup": 7,
+                        "active": 32,
+                        "recovery": 13,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 53,
+                        "stun": 0,
+                        "attack": "H*6",
+                        "parry": "H*6",
+                        "block": -14,
+                        "comments": [
+                            "Stock: x2.",
+                            "If Akuma holds down when landing, he will be in a crouching recovery state."
+                        ]
+                    },
+                    {
+                        "movement": "Messatsu Gou Shoryuu",
+                        "command": "QCF>QCF+P",
+                        "commandCondition": "SA2",
+                        "startup": 1,
+                        "active": 24,
+                        "recovery": 37,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 66,
+                        "stun": 16,
+                        "attack": "H*7",
+                        "parry": "A*7",
+                        "block": -25,
+                        "comments": [
+                            "Stock: x2.",
+                            "Can OTG Dudley after a neutral/forward throw if he doesn't quick rise.",
+                            "Active frame distribution: 2*4(13), 2*4(15), 2*2*8.",
+                            "52 total frames from first to final active frame."
+                        ]
+                    },
+                    {
+                        "movement": "Messatsu Gou Rasen (Ground)",
+                        "command": "QCF>QCF+K",
+                        "commandCondition": "SA3",
+                        "startup": 4,
+                        "active": 22,
+                        "recovery": 51,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 65,
+                        "stun": 0,
+                        "attack": "H",
+                        "parry": "A",
+                        "block": -76,
+                        "comments": [
+                            "Stock: x2.",
+                            "Number of parries depends on stand/crouch and character height.",
+                            "If Akuma holds down when landing, he will be in a crouching recovery state.",
+                            "Active frame distribution: 2(2), 1(1) x17, 1(2)1(2)1.",
+                            "45 total frames from first to final active frame; hitbox switches sides between each set of active frames."
+                        ]
+                    },
+                    {
+                        "movement": "Messatsu Gou Rasen (Air)",
+                        "command": "QCF>QCF+K",
+                        "commandCondition": "air SA3",
+                        "startup": 2,
+                        "active": 27,
+                        "recovery": 51,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 67,
+                        "stun": 0,
+                        "attack": "H",
+                        "parry": "A",
+                        "block": -56,
+                        "comments": [
+                            "Stock: x2.",
+                            "Does less damage the higher it connects, as opponents will fall out of the juggle near max stage height.",
+                            "If Akuma holds down when landing, he will be in a crouching recovery state.",
+                            "Active frame distribution: 7*1(1), 1(1) x14, 1(2)1(2)3.",
+                            "47 total frames from first to final active frame; hitbox switches sides between each set of active frames.",
+                            "First 7 active frames hit behind Akuma, making it much slower for practical purposes."
+                        ]
+                    },
+                    {
+                        "movement": "Shun Goku Satsu",
+                        "command": "LP>LP>F>LK>HP",
+                        "commandCondition": null,
+                        "startup": 1,
+                        "active": 39,
+                        "recovery": 2,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 87,
+                        "stun": 0,
+                        "attack": "T",
+                        "parry": "N",
+                        "block": null,
+                        "comments": [
+                            "8 throw range.",
+                            "Requires 2 stock, usable with any SA.",
+                            "Travels forward for.",
+                            "Invincible from frames 1-4.",
+                            "Can cancel from any non-command standing or crouching attack on hit or whiff, universal overhead on grounded frames, from recovery frames of dive kick, from grounded hits of Goushoryu, or instantly from any fireball.",
+                            "Cannot cancel from Ashura Senkuu."
+                        ]
+                    },
+                    {
+                        "movement": "Kongou Kokuretsu Zan",
+                        "command": "D>D>D+PP",
+                        "commandCondition": null,
+                        "startup": 16,
+                        "active": 24,
+                        "recovery": 64,
+                        "hit": null,
+                        "crHit": null,
+                        "damage": 107,
+                        "stun": 28,
+                        "attack": "H*H x9",
+                        "parry": "N*A x9",
+                        "block": -28,
+                        "comments": [
+                            "Requires 2 stocks, can be used with any SA.",
+                            "Lightning Strike cannot be parried and inflicts massive chip damage.",
+                            "Can hit air-reset opponents as a guaranteed juggle.",
+                            "Cannot be cancelled into.",
+                            "Invincible from startup until the 4th active frame.",
+                            "If used from around sweep range, there is a short window where Akuma can be hit after the lightning strike but before the shockwaves."
                         ]
                     }
                 ]

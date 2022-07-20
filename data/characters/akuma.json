@@ -713,7 +713,7 @@
             "taunt": [
                 {
                     "movement": "Kiai",
-                    "command": "HP+HP",
+                    "command": "HP+HK",
                     "commandCondition": null,
                     "startup": 66,
                     "active": null,

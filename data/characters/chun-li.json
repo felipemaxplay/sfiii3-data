@@ -1,0 +1,1250 @@
+{
+    "id": 3,
+    "name": "Chun-Li",
+    "vitals": {
+        "lifePoints": 1120,
+        "stunPoints": 64
+    },
+    "superArtStockSize": [
+        {
+            "sa": "SA1",
+            "stock": 1,
+            "size": 88
+        },
+        {
+            "sa": "SA2",
+            "stock": 2,
+            "size": 104
+        },
+        {
+            "sa": "SA3",
+            "stock": 3,
+            "size": 72
+        }
+    ],
+    "groundMovements": [
+        {
+            "movement": "Forward Dash",
+            "duration": 16,
+            "distanceInPx": 106
+        },
+        {
+            "movement": "Back Dash",
+            "duration": 25,
+            "distanceInPx": 124
+        }
+    ],
+    "jumpings": [
+        {
+            "jump": "Back Jump",
+            "duration": 43,
+            "startup": 4,
+            "active": 36,
+            "recovery": 3
+        },
+        {
+            "jump": "Neutral Jump",
+            "duration": 43,
+            "startup": 4,
+            "active": 36,
+            "recovery": 3
+        },
+        {
+            "jump": "Forward Jump",
+            "duration": 43,
+            "startup": 4,
+            "active": 36,
+            "recovery": 3
+        },
+        {
+            "jump": "Back Super Jump",
+            "duration": 51,
+            "startup": 5,
+            "active": 43,
+            "recovery": 3
+        },
+        {
+            "jump": "Neutral Super Jump",
+            "duration": 47,
+            "startup": 5,
+            "active": 39,
+            "recovery": 3
+        },
+        {
+            "jump": "Forward Super Jump duration",
+            "duration": 49,
+            "startup": 5,
+            "active": 41,
+            "recovery": 3
+        }
+    ],
+    "wakeUp": {
+        "wakeUpDuration": 88,
+        "quickRiseDuration": 61
+    },
+    "moveList": {
+        "standingNormals": [
+            {
+                "movement": "Close LP",
+                "command": "LP",
+                "commandCondition": "close",
+                "startup": 4,
+                "active": 2,
+                "recovery": 9,
+                "hit": 1,
+                "crHit": 1,
+                "damage": 5,
+                "stun": 5,
+                "attack": "H",
+                "parry": "A",
+                "block": 1,
+                "comments": [
+                    "Cancel options: ch sp su."
+                ]
+            },
+            {
+                "movement": "Far LP",
+                "command": "LP",
+                "commandCondition": "far",
+                "startup": 4,
+                "active": 2,
+                "recovery": 8,
+                "hit": 1,
+                "crHit": 1,
+                "damage": 5,
+                "stun": 5,
+                "attack": "H",
+                "parry": "A",
+                "block": 1,
+                "comments": [
+                    "Cancel options: ch sp su."
+                ]
+            },
+            {
+                "movement": "Stand MP",
+                "command": "MP",
+                "commandCondition": null,
+                "startup": 4,
+                "active": 3,
+                "recovery": 12,
+                "hit": null,
+                "crHit": 1,
+                "damage": 17,
+                "stun": 11,
+                "attack": "H",
+                "parry": "H",
+                "block": -1,
+                "comments": [
+                    "Cancel options: sp su.",
+                    "8 kara range.",
+                    "Self meter gain: Whiff: 2, Hit: 10, Block: 5.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Stand HP",
+                "command": "HP",
+                "commandCondition": null,
+                "startup": 14,
+                "active": 4,
+                "recovery": 16,
+                "hit": 1,
+                "crHit": 3,
+                "damage": 25,
+                "stun": 19,
+                "attack": "M",
+                "parry": "H",
+                "block": -1,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Stand LK",
+                "command": "LK",
+                "commandCondition": null,
+                "startup": 5,
+                "active": 3,
+                "recovery": 10,
+                "hit": null,
+                "crHit": null,
+                "damage": 7,
+                "stun": 3,
+                "attack": "H",
+                "parry": "A",
+                "block": null,
+                "comments": [
+                    "Cancel options: sp su.",
+                    "8 kara range."
+                ]
+            },
+            {
+                "movement": "Close MK",
+                "command": "MK",
+                "commandCondition": "close",
+                "startup": 5,
+                "active": 3,
+                "recovery": 12,
+                "hit": 1,
+                "crHit": 2,
+                "damage": 18,
+                "stun": 9,
+                "attack": "H",
+                "parry": "H",
+                "block": null,
+                "comments": [
+                    "Cancel options: sp su.",
+                    "8 kara range.",
+                    "Self meter gain: Whiff: 2, Hit: 10, Block: 5.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Far MK",
+                "command": "MK",
+                "commandCondition": "far",
+                "startup": 11,
+                "active": 3,
+                "recovery": 14,
+                "hit": null,
+                "crHit": 1,
+                "damage": 17,
+                "stun": 9,
+                "attack": "H",
+                "parry": "H",
+                "block": -1,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Stand HK",
+                "command": "HK",
+                "commandCondition": null,
+                "startup": 16,
+                "active": 5,
+                "recovery": 29,
+                "hit": null,
+                "crHit": 2,
+                "damage": 26,
+                "stun": 21,
+                "attack": "H",
+                "parry": "H",
+                "block": -13,
+                "comments": [
+                    "-16 kara range.",
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Stand HK",
+                "command": "HK",
+                "commandCondition": null,
+                "startup": 16,
+                "active": 5,
+                "recovery": 29,
+                "hit": null,
+                "crHit": 2,
+                "damage": 26,
+                "stun": 21,
+                "attack": "H",
+                "parry": "H",
+                "block": -13,
+                "comments": [
+                    "-16 kara range.",
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            }
+        ],
+        "commandNormals": [
+            {
+                "movement": "High Chop",
+                "command": "F+MP",
+                "commandCondition": null,
+                "startup": 7,
+                "active": 5,
+                "recovery": 10,
+                "hit": null,
+                "crHit": null,
+                "damage": 19,
+                "stun": 9,
+                "attack": "M",
+                "parry": "H",
+                "block": -2,
+                "comments": [
+                    "Self meter gain: Whiff: 2, Hit: 10, Block: 5.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Lariat",
+                "command": "F+HP",
+                "commandCondition": null,
+                "startup": 9,
+                "active": 4,
+                "recovery": 17,
+                "hit": null,
+                "crHit": null,
+                "damage": 24,
+                "stun": 15,
+                "attack": "H",
+                "parry": "H",
+                "block": -1,
+                "comments": [
+                    "16 kara range.",
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Headbutt",
+                "command": "B+HP",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 4,
+                "recovery": 23,
+                "hit": null,
+                "crHit": null,
+                "damage": 32,
+                "stun": 23,
+                "attack": "H",
+                "parry": "N",
+                "block": -11,
+                "comments": [
+                    "72 throw range.",
+                    "Whiffs on crouching opponents.",
+                    "Against crouching Dudley and Oro, it can combo after a deep jump normal.",
+                    "Self meter gain: Whiff: 3, Hit: 11, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Sleeper Hold",
+                "command": "B+HP",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 4,
+                "recovery": 23,
+                "hit": 4,
+                "crHit": null,
+                "damage": 40,
+                "stun": 24,
+                "attack": "T",
+                "parry": "N",
+                "block": -11,
+                "comments": [
+                    "Same input as Headbutt, but on back turned opponents."
+                ]
+            },
+            {
+                "movement": "Sleeper Hold",
+                "command": "B+HP",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 4,
+                "recovery": 23,
+                "hit": 4,
+                "crHit": null,
+                "damage": 40,
+                "stun": 24,
+                "attack": "T",
+                "parry": "N",
+                "block": -11,
+                "comments": [
+                    "Same input as Headbutt, but on back turned opponents."
+                ]
+            },
+            {
+                "movement": "Sleeper Hold",
+                "command": "B+HP",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 4,
+                "recovery": 23,
+                "hit": 4,
+                "crHit": null,
+                "damage": 40,
+                "stun": 24,
+                "attack": "T",
+                "parry": "N",
+                "block": -11,
+                "comments": [
+                    "Same input as Headbutt, but on back turned opponents."
+                ]
+            }
+        ],
+        "crouchingNormals": [
+            {
+                "movement": "Crouch LP",
+                "command": "D+LP",
+                "commandCondition": null,
+                "startup": 4,
+                "active": 2,
+                "recovery": 9,
+                "hit": 1,
+                "crHit": 1,
+                "damage": 5,
+                "stun": 5,
+                "attack": "H",
+                "parry": "A",
+                "block": 1,
+                "comments": [
+                    "Cancel options: ch sp su.",
+                    "16 kara range."
+                ]
+            },
+            {
+                "movement": "Crouch MP",
+                "command": "D+MP",
+                "commandCondition": null,
+                "startup": 7,
+                "active": 2,
+                "recovery": 13,
+                "hit": 1,
+                "crHit": 2,
+                "damage": 16,
+                "stun": 7,
+                "attack": "H",
+                "parry": "A",
+                "block": null,
+                "comments": [
+                    "Self meter gain: Whiff: 2, Hit: 10, Block: 5.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Crouch HP",
+                "command": "D+HP",
+                "commandCondition": null,
+                "startup": 13,
+                "active": 5,
+                "recovery": 22,
+                "hit": null,
+                "crHit": null,
+                "damage": 23,
+                "stun": 7,
+                "attack": "H*H",
+                "parry": "A*A",
+                "block": -9,
+                "comments": [
+                    "2nd hit whiffs on crouch blocking opponents; number of required parries depends on opponent height.",
+                    "Self meter gain: Whiff: 3, Hit: 18, Block: 10.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Crouch LK",
+                "command": "D+LK",
+                "commandCondition": null,
+                "startup": 5,
+                "active": 2,
+                "recovery": 8,
+                "hit": 2,
+                "crHit": 2,
+                "damage": 5,
+                "stun": 3,
+                "attack": "L",
+                "parry": "L",
+                "block": 2,
+                "comments": [
+                    "Cancel options: sp su."
+                ]
+            },
+            {
+                "movement": "Crouch MK",
+                "command": "D+MK",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 3,
+                "recovery": 12,
+                "hit": null,
+                "crHit": 1,
+                "damage": 12,
+                "stun": 3,
+                "attack": "L",
+                "parry": "L",
+                "block": -1,
+                "comments": [
+                    "Self meter gain: Whiff: 2, Hit: 10, Block: 5.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Crouch HK",
+                "command": "D+HK",
+                "commandCondition": null,
+                "startup": 11,
+                "active": 2,
+                "recovery": 29,
+                "hit": null,
+                "crHit": null,
+                "damage": 23,
+                "stun": 3,
+                "attack": "L",
+                "parry": "L",
+                "block": -15,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            }
+        ],
+        "jumpingNormals": [
+            {
+                "movement": "Jump LP",
+                "command": "U+LP",
+                "commandCondition": null,
+                "startup": 4,
+                "active": 12,
+                "recovery": null,
+                "hit": null,
+                "crHit": null,
+                "damage": 7,
+                "stun": 5,
+                "attack": "M",
+                "parry": "H",
+                "block": null,
+                "comments": []
+            },
+            {
+                "movement": "Jump MP",
+                "command": "U+MP",
+                "commandCondition": null,
+                "startup": 5,
+                "active": 3,
+                "recovery": null,
+                "hit": null,
+                "crHit": null,
+                "damage": 14,
+                "stun": 13,
+                "attack": "M",
+                "parry": "H",
+                "block": null,
+                "comments": [
+                    "Self meter gain: Whiff: 2, Hit: 10, Block: 5.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Jump HP",
+                "command": "U+HP",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 3,
+                "recovery": null,
+                "hit": null,
+                "crHit": null,
+                "damage": 24,
+                "stun": 15,
+                "attack": "M",
+                "parry": "H",
+                "block": null,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Jump LK",
+                "command": "U+LK",
+                "commandCondition": null,
+                "startup": 4,
+                "active": null,
+                "recovery": null,
+                "hit": null,
+                "crHit": null,
+                "damage": 10,
+                "stun": 7,
+                "attack": "M",
+                "parry": "H",
+                "block": null,
+                "comments": []
+            },
+            {
+                "movement": "Jump MK",
+                "command": "U+MK",
+                "commandCondition": null,
+                "startup": 9,
+                "active": 3,
+                "recovery": null,
+                "hit": null,
+                "crHit": null,
+                "damage": 16,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": null,
+                "comments": [
+                    "Self meter gain: Whiff: 2, Hit: 10, Block: 5.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Jump HK",
+                "command": "U+HK",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 4,
+                "recovery": null,
+                "hit": null,
+                "crHit": null,
+                "damage": 21,
+                "stun": 15,
+                "attack": "M",
+                "parry": "H",
+                "block": null,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 17, Block: 9.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flying Cross Chop",
+                "command": "D+HP",
+                "commandCondition": "air",
+                "startup": 10,
+                "active": 11,
+                "recovery": 26,
+                "hit": -9,
+                "crHit": -4,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -20,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 15, Block: 6.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            }
+        ],
+        "targetCombos": [],
+        "throws": [
+            {
+                "movement": "Body Slam",
+                "command": "(B/F)+LP+LK",
+                "commandCondition": null,
+                "startup": 2,
+                "active": 1,
+                "recovery": 21,
+                "hit": null,
+                "crHit": null,
+                "damage": 24,
+                "stun": 16,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "30 throw range."
+                ]
+            },
+            {
+                "movement": "Body Slam",
+                "command": "(B/F)+LP+LK",
+                "commandCondition": null,
+                "startup": 2,
+                "active": 1,
+                "recovery": 21,
+                "hit": null,
+                "crHit": null,
+                "damage": 24,
+                "stun": 16,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "30 throw range."
+                ]
+            }
+        ],
+        "universalOverheads": [
+            {
+                "movement": "Flying Knee",
+                "command": "MP+MK",
+                "commandCondition": null,
+                "startup": 15,
+                "active": 10,
+                "recovery": 5,
+                "hit": 0,
+                "crHit": 1,
+                "damage": 7,
+                "stun": 3,
+                "attack": "M",
+                "parry": "H",
+                "block": -5,
+                "comments": []
+            }
+        ],
+        "taunt": [
+            {
+                "movement": "Arm Spin",
+                "command": "HP+HK",
+                "commandCondition": null,
+                "startup": 64,
+                "active": null,
+                "recovery": null,
+                "hit": null,
+                "crHit": null,
+                "damage": null,
+                "stun": null,
+                "attack": null,
+                "parry": null,
+                "block": null,
+                "comments": [
+                    "Unheld taunt - Increases damage for the next hit/combo by 9.4% for the first taunt and 6.3% for each additional taunt. Maximum: 6 taunts, 37.5% bonus.",
+                    "Held taunt - Increases damage for the next hit/combo or throw by 6.3% per extra arm turn. Maximum: 8 turns, 50% bonus."
+                ]
+            }
+        ],
+        "specialMoves": [
+            {
+                "movement": "Flash Chop LP",
+                "command": "QCF+LP",
+                "commandCondition": null,
+                "startup": 11,
+                "active": 2,
+                "recovery": 17,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 21,
+                "stun": 7,
+                "attack": "H",
+                "parry": "H",
+                "block": -2,
+                "comments": [
+                    "Self meter gain: Whiff: 3, Hit: 16, Block: 10.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flash Chop MP",
+                "command": "QCF+MP",
+                "commandCondition": null,
+                "startup": 15,
+                "active": 3,
+                "recovery": 19,
+                "hit": 14,
+                "crHit": 14,
+                "damage": 23,
+                "stun": 9,
+                "attack": "H",
+                "parry": "H",
+                "block": -2,
+                "comments": [
+                    "Cancel options: su.",
+                    "Backturns opponent.",
+                    "Self meter gain: Whiff: 3, Hit: 16, Block: 10.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flash Chop HP",
+                "command": "QCF+HP",
+                "commandCondition": null,
+                "startup": 19,
+                "active": 4,
+                "recovery": 17,
+                "hit": 15,
+                "crHit": 15,
+                "damage": 24,
+                "stun": 15,
+                "attack": "H",
+                "parry": "H",
+                "block": -1,
+                "comments": [
+                    "Cancel options: su.",
+                    "Backturns opponent.",
+                    "Self meter gain: Whiff: 3, Hit: 16, Block: 10.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Flash Chop EX",
+                "command": "QCF+PP",
+                "commandCondition": null,
+                "startup": 9,
+                "active": 4,
+                "recovery": 15,
+                "hit": null,
+                "crHit": null,
+                "damage": 34,
+                "stun": 13,
+                "attack": "H*H",
+                "parry": "H*H",
+                "block": -1,
+                "comments": [
+                    "Cancel options: su.",
+                    "Self meter gain: Whiff: -40, Hit: -40, Block: -40.",
+                    "Opponent meter gain: Whiff: 0, Hit: 0, Block: 0."
+                ]
+            },
+            {
+                "movement": "Power Bomb LP",
+                "command": "HCB+LP",
+                "commandCondition": null,
+                "startup": 6,
+                "active": 2,
+                "recovery": 35,
+                "hit": null,
+                "crHit": null,
+                "damage": 28,
+                "stun": 18,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "48 throw range.",
+                    "Self meter gain: Whiff: 2, Hit: 20, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Power Bomb MP",
+                "command": "HCB+MP",
+                "commandCondition": null,
+                "startup": 7,
+                "active": 2,
+                "recovery": 41,
+                "hit": null,
+                "crHit": null,
+                "damage": 32,
+                "stun": 18,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "44 throw range.",
+                    "Self meter gain: Whiff: 2, Hit: 20, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Power Bomb HP",
+                "command": "HCB+HP",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 2,
+                "recovery": 44,
+                "hit": null,
+                "crHit": null,
+                "damage": 35,
+                "stun": 18,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "40 throw range.",
+                    "Self meter gain: Whiff: 2, Hit: 20, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Back Drop LP",
+                "command": "HCB+LP",
+                "commandCondition": null,
+                "startup": 6,
+                "active": 2,
+                "recovery": 35,
+                "hit": null,
+                "crHit": null,
+                "damage": 32,
+                "stun": 20,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "48 throw range.",
+                    "Self meter gain: Whiff: 2, Hit: 20, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Back Drop MP",
+                "command": "HCB+MP",
+                "commandCondition": null,
+                "startup": 7,
+                "active": 2,
+                "recovery": 41,
+                "hit": null,
+                "crHit": null,
+                "damage": 35,
+                "stun": 20,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "44 throw range.",
+                    "Self meter gain: Whiff: 2, Hit: 20, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Back Drop HP",
+                "command": "HCB+HP",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 2,
+                "recovery": 44,
+                "hit": null,
+                "crHit": null,
+                "damage": 40,
+                "stun": 20,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "40 throw range.",
+                    "Self meter gain: Whiff: 2, Hit: 20, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 4, Block: 0."
+                ]
+            },
+            {
+                "movement": "Air Knee Smash LK",
+                "command": "DP+LK",
+                "commandCondition": null,
+                "startup": 6,
+                "active": 6,
+                "recovery": 35,
+                "hit": null,
+                "crHit": null,
+                "damage": 21,
+                "stun": 14,
+                "attack": "H (air)",
+                "parry": "H (air)",
+                "block": null,
+                "comments": [
+                    "43 throw range.",
+                    "If Alex holds down when landing, he will be in a crouching recovery state.",
+                    "Self meter gain: Whiff: 2, Hit: 18, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Air Knee Smash MK",
+                "command": "DP+MK",
+                "commandCondition": null,
+                "startup": 7,
+                "active": 10,
+                "recovery": 34,
+                "hit": null,
+                "crHit": null,
+                "damage": 24,
+                "stun": 14,
+                "attack": "H (air)",
+                "parry": "H (air)",
+                "block": null,
+                "comments": [
+                    "43 throw range.",
+                    "If Alex holds down when landing, he will be in a crouching recovery state.",
+                    "Self meter gain: Whiff: 2, Hit: 18, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Air Knee Smash HK",
+                "command": "DP+HK",
+                "commandCondition": null,
+                "startup": 8,
+                "active": 12,
+                "recovery": 33,
+                "hit": null,
+                "crHit": null,
+                "damage": 26,
+                "stun": 14,
+                "attack": "H (air)",
+                "parry": "H (air)",
+                "block": null,
+                "comments": [
+                    "43 throw range.",
+                    "If Alex holds down when landing, he will be in a crouching recovery state.",
+                    "Self meter gain: Whiff: 2, Hit: 18, Block: 0.",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Air Knee Smash EX",
+                "command": "DP+KK",
+                "commandCondition": null,
+                "startup": 3,
+                "active": 17,
+                "recovery": 34,
+                "hit": null,
+                "crHit": null,
+                "damage": 26,
+                "stun": 14,
+                "attack": "H",
+                "parry": "H",
+                "block": -31,
+                "comments": [
+                    "43 throw range.",
+                    "Cannot hit crouching characters, except for Dudley and Oro during crouching hitstun.",
+                    "If Alex holds down when landing, he will be in a crouching recovery state.",
+                    "Self meter gain: Whiff: -40, Hit: -24, Block: -40 (gains 16 meter on hit due to a bug).",
+                    "Opponent meter gain: Whiff: 0, Hit: 3, Block: 0."
+                ]
+            },
+            {
+                "movement": "Air Stampede LK",
+                "command": "HOLD D>U+LK",
+                "commandCondition": null,
+                "startup": 23,
+                "active": 2,
+                "recovery": 24,
+                "hit": null,
+                "crHit": null,
+                "damage": 21,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -3,
+                "comments": [
+                    "1f grounded throw/lower body invulnerable, 5f airborne.",
+                    "Opponent cannot quick rise after knockdown.",
+                    "Self meter gain: Whiff: 3, Hit: 12, Block: 4.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            },
+            {
+                "movement": "Air Stampede MK",
+                "command": "HOLD D>U+MK",
+                "commandCondition": null,
+                "startup": 25,
+                "active": 2,
+                "recovery": 24,
+                "hit": null,
+                "crHit": null,
+                "damage": 24,
+                "stun": 11,
+                "attack": "M",
+                "parry": "H",
+                "block": -3,
+                "comments": [
+                    "1f grounded throw/lower body invulnerable, 5f airborne.",
+                    "Opponent cannot quick rise after knockdown.",
+                    "Self meter gain: Whiff: 3, Hit: 12, Block: 4.",
+                    "Opponent meter gain: Whiff: 0, Hit: 2, Block: 0."
+                ]
+            }
+        ],
+        "superArts": [
+            {
+                "movement": "Hyper Bomb",
+                "command": "360+P",
+                "commandCondition": "SA1",
+                "startup": 2,
+                "active": 2,
+                "recovery": 33,
+                "hit": null,
+                "crHit": null,
+                "damage": 88,
+                "stun": 18,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "68 throw range.",
+                    "1-4f fully invulnerable (until end of active frames).",
+                    "Opponent can jump out after super freeze if they have not committed to another action"
+                ]
+            },
+            {
+                "movement": "Reverse Hyper Bomb",
+                "command": "360+P",
+                "commandCondition": "SA1",
+                "startup": 2,
+                "active": 2,
+                "recovery": 33,
+                "hit": null,
+                "crHit": null,
+                "damage": 99,
+                "stun": 26,
+                "attack": "T",
+                "parry": "N",
+                "block": null,
+                "comments": [
+                    "68 throw range.",
+                    "Higher damage/stun version of SA1 against backturned opponents.",
+                    "Can combo after MP or HP Flash Chop"
+                ]
+            },
+            {
+                "movement": "Boomerang Raid",
+                "command": "QCF>QCF+P",
+                "commandCondition": "SA2",
+                "startup": 1,
+                "active": 14,
+                "recovery": 41,
+                "hit": null,
+                "crHit": null,
+                "damage": 59,
+                "stun": 20,
+                "attack": "H",
+                "parry": "H",
+                "block": -46,
+                "comments": [
+                    "68 throw range.",
+                    "1-4f fully invulnerable (up to its 3rd active frame).",
+                    "Frame advantage on block varies drastically based on which hits connect; large amount of pushback on each blocked hit.",
+                    "Even if the first 4 hits don't connect, the Power Bomb at the end can still throw the opponent if they are in range.",
+                    "This is especially common if the opponent crouch blocks in the corner"
+                ]
+            }
+        ]
+    }
+}

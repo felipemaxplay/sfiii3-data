@@ -1,0 +1,287 @@
+{
+    "id": 11,
+    "name": "Oro",
+    "vitals": {
+        "lifePoints": 0,
+        "stunPoints": 0
+    },
+    "superArtStockSize": [
+        {
+            "sa": "SA1",
+            "stock": 0,
+            "size": 0
+        },
+        {
+            "sa": "SA2",
+            "stock": 0,
+            "size": 0
+        },
+        {
+            "sa": "SA3",
+            "stock": 0,
+            "size": 0
+        }
+    ],
+    "groundMovements": [
+        {
+            "movement": "Forward Dash",
+            "duration": 0,
+            "distanceInPx": 0
+        },
+        {
+            "movement": "Back Dash",
+            "duration": 0,
+            "distanceInPx": 0
+        }
+    ],
+    "jumpings": [
+        {
+            "jump": "Back Jump",
+            "duration": 0,
+            "startup": 0,
+            "active": 0,
+            "recovery": 3
+        },
+        {
+            "jump": "Neutral Jump",
+            "duration": 0,
+            "startup": 0,
+            "active": 0,
+            "recovery": 3
+        },
+        {
+            "jump": "Forward Jump",
+            "duration": 0,
+            "startup": 0,
+            "active": 0,
+            "recovery": 3
+        },
+        {
+            "jump": "Back Super Jump",
+            "duration": 0,
+            "startup": 0,
+            "active": 0,
+            "recovery": 3
+        },
+        {
+            "jump": "Neutral Super Jump",
+            "duration": 0,
+            "startup": 0,
+            "active": 0,
+            "recovery": 3
+        },
+        {
+            "jump": "Forward Super Jump duration",
+            "duration": 0,
+            "startup": 0,
+            "active": 0,
+            "recovery": 3
+        }
+    ],
+    "wakeUp": {
+        "wakeUpDuration": 0,
+        "quickRiseDuration": 0
+    },
+    "moveList": {
+        "standingNormals": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "commandNormals": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "crouchingNormals": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "jumpingNormals": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "targetCombos": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "throws": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "universalOverheads": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "taunt": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "specialMoves": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ],
+        "superArts": [
+            {
+                "movement": "",
+                "command": "",
+                "commandCondition": null,
+                "startup": 0,
+                "active": 0,
+                "recovery": 0,
+                "hit": 0,
+                "crHit": 0,
+                "damage": 0,
+                "stun": 0,
+                "attack": "",
+                "parry": "",
+                "block": 0,
+                "comments": [
+                    ""
+                ]
+            }
+        ]
+    }
+}
